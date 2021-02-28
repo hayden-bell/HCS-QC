@@ -1,4 +1,4 @@
-# Quality Control Preprocessing for High-Content Screening Experiments
+# Image Quality Control Preprocessing for High-Content Screening Experiments
 The identification of systematic errors and random artifacts in microscopy images from high-content screening (HCS) experiments is critical for the acquisition of robust datasets. Common image-based aberrations may include out-of-focus images, debris, and autofluorescing samples which can cause artifacts such as excessive focus blur and image saturation. Manual inspection of images within a HCS experiment is simply not feasible but poor quality images must be appropriately identified and addressed as not to degrade otherwise high-quality data.
 
 This quality control (QC) protocol is designed to calculate image-based measurements of QC metrics and apply a trained machine-learning model to identify, with high-confidence, images which may fail quality control assessment.
