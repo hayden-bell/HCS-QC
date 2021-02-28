@@ -18,15 +18,16 @@ appropriate only to data acquired under the exact same experimental conditions.
 ## Getting Started
 Walkthrough instructions are provided in the [QC_demo.ipynb](QC_demo.ipynb) Jupyter notebook which details how to:
 1. generate the training set for building the machine learning model;
-2. import the training data and configure it for training use
-3. train the model *(hyper-parameters should be manually configured using GridSearch cross-validation testing to find optimal values)*
-4. assess the performance of the model
-5. predict QC on unseen datasets
+2. import the training data and configure it for training use;
+3. train the model *(hyper-parameters should be manually configured using GridSearch cross-validation testing to find optimal values)*;
+4. assess the performance of the model;
+5. predict QC on unseen datasets.
 
 Once optimal hyperparameters have been configured and a robust training dataset has been composed, ```QC_predict.py``` can be changed to reflect optimal parameters and applied to whole datasets.
 
 ## Dependencies
-Image quality metrics are calculated using a pipeline built using [CellProfiler](https://github.com/CellProfiler) (4.0.5)
+Image quality metrics are calculated using a pipeline built using [CellProfiler](https://github.com/CellProfiler) (4.0.5).
+
 The script relies on the following dependencies (tested version provided in parentheses):
 * python (3.8)
 * pandas (1.1.4)
