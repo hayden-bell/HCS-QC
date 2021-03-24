@@ -25,6 +25,8 @@ Walkthrough instructions are provided in the [QC_demo.ipynb](QC_demo.ipynb) Jupy
 
 Once optimal hyperparameters have been configured and a robust training dataset has been composed, ```QC_predict.py``` can be changed to reflect optimal parameters and applied to whole datasets.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hayden-bell/HCS-QC/HEAD?filepath=%2FQC_demo.ipynb)
+
 ## Dependencies
 Image quality metrics are calculated using a pipeline built using [CellProfiler](https://github.com/CellProfiler) (4.0.5).
 
